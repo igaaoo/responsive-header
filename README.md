@@ -1,4 +1,4 @@
-#📏responsive-header
+# 📏responsive-header
 Initial study of responsive layouts
  
  ## How looks in different screen sizes:
