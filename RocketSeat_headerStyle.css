@@ -1,0 +1,76 @@
+body {
+  background-color: azure;
+  height: 90vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 30px;
+  background-color: rgb(26, 182, 221);
+  color: whitesmoke;
+  font-family: sans-serif;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+}
+
+nav h3 {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  cursor: pointer;
+  justify-content: center;
+}
+
+nav h3:hover {
+  background-color: rgb(240, 240, 240);
+  color: rgb(26, 182, 221);
+}
+
+nav h1 {
+  flex: 8;
+}
+
+nav h3:nth-of-type(4) {
+  background-color: rgb(100, 100, 100);
+  border-radius: 10px;
+  height: 5vh;
+  margin-left: 30px;
+}
+
+nav h3:nth-of-type(4):hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  height: 5vh;
+  margin-left: 30px;
+  color: rgb(26, 182, 221);
+}
+
+@media only screen and (max-width: 730px) {
+  nav {
+    flex-direction: column;
+    padding: 0;
+  }
+  nav h3 {
+    border-top: 2px solid whitesmoke;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 3vh 0;
+  }
+
+  nav h3:nth-of-type(4) {
+    background-color: rrgb(100, 100, 100);
+    border-radius: 0px;
+    margin-left: 0;
+  }
+
+  nav h3:nth-of-type(4):hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 0px;
+    margin-left: 0px;
+    color: rgb(26, 182, 221);
+  }
+}
